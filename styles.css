@@ -1,0 +1,40 @@
+body {
+    background-color: #6A0DAD;
+    /* Purple background color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#pokemonList {
+    margin-bottom: 20px;
+}
+
+#pokemonList ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+#pokemonList li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#pokemonList li img {
+    width: calc(50px + 35%);
+    height: calc(50px + 35%);
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#pokemonDetails ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#pokemonDetails li {
+    margin-bottom: 10px;
+}
